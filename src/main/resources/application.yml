@@ -1,0 +1,8 @@
+server:
+  port: 5500
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/beibei?useSSL=false
+    username: root
+    password: 1234
+    driver-class-name: com.mysql.cj.jdbc.Driver

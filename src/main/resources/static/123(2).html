@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // 向给定ID的用户发起请求
+        axios.get('http://localhost:5500/word')
+        .then(function (response) {
+            // 处理成功情况
+            alert(response);
+        })
+        .catch(function (error) {
+            // 处理错误情况
+            alert(error);
+        })
+    </script>
+
+</body>
+</html>
